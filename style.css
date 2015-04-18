@@ -1,0 +1,14 @@
+@import url('reset.css');
+
+.wrapper{
+	background-color:gainsboro;
+	height:600px;
+	width:800px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.textblock{
+	
+}
