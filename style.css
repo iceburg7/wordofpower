@@ -1,13 +1,30 @@
 @import url('reset.css');
 
+
+
+.show{
+	display:block;
+}
+
+.hide{
+	display:none;
+}
+
+
+
+
 .wrapper{
-	background-color:gainsboro;
+	background-color:none;
 	height:560px;
 	width:800px;
 	margin-top:10px;
 	margin-left:auto;
 	margin-right:auto;
 }
+
+
+
+
 
 .titleblock{
 	height:100px;
@@ -32,21 +49,39 @@
 	height:125px;
 	width:800px;
 	margin-top:10px;
-	background-color:green;
+	background-color:none;
 }
 
 .letterblock{
 	height:60px;
 	width:800px;
 	margin-top:10px;
-	background-color:blue;
+	background-color:none;
 }
+
+	.letterwrap{
+		height:60px;
+		width:60px;
+		margin-right:10px;
+		float:left;
+	}
+	
+		.letter{
+			height:50px;
+			width:50px;
+			border:5px solid black;
+			
+		}
+		
+	.letterwrap1{
+		margin-left:160px;
+	}
 
 .wordblock{
 	height:150px;
 	width:800px;
 	margin-top:45px;
-	background-color:red;
+	background-color:none;
 }
 
 	.word{
