@@ -2,13 +2,62 @@
 
 .wrapper{
 	background-color:gainsboro;
-	height:600px;
+	height:550px;
 	width:800px;
 	margin-top:10px;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-.textblock{
-	
+.titleblock{
+	height:100px;
+	width:800px;
+	background-color:black;
+}
+
+	.titletext{
+		height:70px;
+		width:800px;
+		text-align:center;
+		padding-top:20px;
+		font-size:1.3em;
+		color:white;
+	}
+
+		.titleline2{
+			padding-top:10px;
+		}
+
+.descriptionblock{
+	height:125px;
+	width:800px;
+	margin-top:10px;
+	background-color:green;
+}
+
+.letterblock{
+	height:75px;
+	width:800px;
+	margin-top:10px;
+	background-color:blue;
+}
+
+.wordblock{
+	height:125px;
+	width:800px;
+	margin-top:30px;
+	background-color:red;
+}
+
+.speakblock{
+	height:45px;
+	width:600px;
+	padding-top:5px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	color:white;
+	font-size:2em;
+	text-align:center;
 }
