@@ -2,7 +2,7 @@
 
 .wrapper{
 	background-color:gainsboro;
-	height:550px;
+	height:560px;
 	width:800px;
 	margin-top:10px;
 	margin-left:auto;
@@ -36,18 +36,30 @@
 }
 
 .letterblock{
-	height:75px;
+	height:60px;
 	width:800px;
 	margin-top:10px;
 	background-color:blue;
 }
 
 .wordblock{
-	height:125px;
+	height:150px;
 	width:800px;
-	margin-top:30px;
+	margin-top:45px;
 	background-color:red;
 }
+
+	.word{
+		height:130px;
+		width:130px;
+		margin-right:20px;
+		border:10px solid black;
+		float:left;
+	}
+	
+		.word1{
+			margin-left:155px;
+		}
 
 .speakblock{
 	height:45px;
