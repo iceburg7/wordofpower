@@ -65,6 +65,15 @@ $(document).ready(function(){
 	
 	
 	
+	$(".letter3").hover(function(){
+		$(".text3").css("display","block");
+		},function(){
+		$(".text3").css("display","none");
+	});
+	
+	
+	
+	
 	
 	
 	

@@ -52,6 +52,12 @@
 	background-color:none;
 }
 
+	.text{
+		height:125px;
+		width:800px;
+		text-align:center;
+	}
+
 .letterblock{
 	height:60px;
 	width:800px;
@@ -73,6 +79,14 @@
 			
 		}
 		
+		.letter1{
+			background-image:url(images/letter1small.jpg);
+		}
+		
+		.letter2{
+			background-image:url(images/letter2small.jpg);
+		}
+		
 		.letter3{
 			background-image:url(images/letter3small.jpg);
 		}
@@ -84,6 +98,15 @@
 		.letter5{
 			background-image:url(images/letter5small.jpg);
 		}
+		
+		.letter6{
+			background-image:url(images/letter6small.jpg);
+		}
+		
+		.letter7{
+			background-image:url(images/letter7small.jpg);
+		}
+		
 		
 		
 	.letterwrap1{
@@ -116,7 +139,7 @@
 	margin-top:10px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:black;
+	background-image:url(images/speakimg.jpg);
 	color:white;
 	font-size:2em;
 	text-align:center;
