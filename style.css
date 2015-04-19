@@ -29,7 +29,7 @@
 .titleblock{
 	height:100px;
 	width:800px;
-	background-color:black;
+	background-image:url(images/titleimg2.jpg);
 }
 
 	.titletext{
@@ -72,6 +72,19 @@
 			border:5px solid black;
 			
 		}
+		
+		.letter3{
+			background-image:url(images/letter3small.jpg);
+		}
+		
+		.letter4{
+			background-image:url(images/letter4small.jpg);
+		}
+		
+		.letter5{
+			background-image:url(images/letter5small.jpg);
+		}
+		
 		
 	.letterwrap1{
 		margin-left:160px;
