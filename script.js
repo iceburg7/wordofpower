@@ -295,6 +295,18 @@ $(document).ready(function(){
 		if(firstletter === 5 && secondletter === 3 && thirdletter === 4){
 			show(".text8");
 			show(".letter6");
+		}else if(firstletter === 3 && secondletter === 4 && thirdletter === 5){
+			show(".text20");
+		}else if(firstletter === 5 && secondletter === 4 && thirdletter === 3){
+			show(".text21");
+		}else if(firstletter === 3 && secondletter === 3 && thirdletter === 3){
+			show(".text22");
+		}else if(firstletter === 4 && secondletter === 4 && thirdletter === 4){
+			show(".text23");
+		}else if(firstletter === 5 && secondletter === 5 && thirdletter === 5){
+			show(".text24");
+		}else if(firstletter === 3 && secondletter === 5 && thirdletter === 6){
+			show(".text25");
 		}else if(firstletter === 4 && secondletter === 6 && thirdletter === 5){
 			show(".text9");
 			show(".letter2");
@@ -306,6 +318,16 @@ $(document).ready(function(){
 		}else if(firstletter === 6 && secondletter === 4 && thirdletter === 2){
 			show(".text12");
 			show(".letter7");
+		}else if(firstletter === 1 && secondletter === 2 && thirdletter === 5){
+			show(".text13a");
+		}else if(firstletter === 2 && secondletter === 1 && thirdletter === 5){
+			show(".text13a");
+		}else if(firstletter === 2 && secondletter === 5 && thirdletter === 1){
+			show(".text13a");
+		}else if(firstletter === 5 && secondletter === 1 && thirdletter === 2){
+			show(".text13a");
+		}else if(firstletter === 5 && secondletter === 2 && thirdletter === 1){
+			show(".text13a");
 		}else if(firstletter === 1 && secondletter === 5 && thirdletter === 2 && pridestate === 0){
 			show(".text13");
 			pridestate = 1;
@@ -322,6 +344,56 @@ $(document).ready(function(){
 			hide(".wordblock");
 			hide(".speakblock");
 			show(".prideend");
+		}else if(firstletter === 7 && secondletter === 6 && thirdletter === 3){
+			show(".text16a");
+		}else if(firstletter === 6 && secondletter === 7 && thirdletter === 3){
+			show(".text16a");
+		}else if(firstletter === 6 && secondletter === 3 && thirdletter === 7){
+			show(".text16a");
+		}else if(firstletter === 3 && secondletter === 6 && thirdletter === 7){
+			show(".text16a");
+		}else if(firstletter === 3 && secondletter === 7 && thirdletter === 6){
+			show(".text16a");
+		}else if(firstletter === 7 && secondletter === 3 && thirdletter === 6 && angerstate === 0){
+			show(".text16");
+			angerstate = 1;
+		}else if(firstletter === 7 && secondletter === 3 && thirdletter === 6 && angerstate === 1){
+			show(".text17");
+			angerstate = 2;
+		}else if(firstletter === 7 && secondletter === 3 && thirdletter === 6 && angerstate === 2){
+			show(".text18");
+			angerstate = 3;
+		}else if(firstletter === 7 && secondletter === 3 && thirdletter === 6 && angerstate === 3){
+			hide(".titleblock");
+			hide(".descriptionblock");
+			hide(".letterblock");
+			hide(".wordblock");
+			hide(".speakblock");
+			show(".angerend");
+		}else if(firstletter === 2 && secondletter === 1 && thirdletter === 2){
+			show(".text26");
+		}else if(firstletter === 2 && secondletter === 7 && thirdletter === 2){
+			show(".text27");
+		}else if(firstletter === 2 && secondletter === 4 && thirdletter === 2){
+			show(".text28");
+		}else if(firstletter === 2 && secondletter === 2 && thirdletter === 4){
+			show(".text28");
+		}else if(firstletter === 4 && secondletter === 2 && thirdletter === 2){
+			show(".text28");
+		}else if(firstletter === 2 && secondletter === 3 && thirdletter === 2){
+			show(".text29");
+		}else if(firstletter === 2 && secondletter === 5 && thirdletter === 2){
+			show(".text30");
+		}else if(firstletter === 2 && secondletter === 6 && thirdletter === 2){
+			show(".text31");
+		}else if(firstletter === 2 && secondletter === 3 && thirdletter === 4){
+			show(".text32");
+		}else if(firstletter === 4 && secondletter === 3 && thirdletter === 2){
+			show(".text32");
+		}else if(firstletter === 2 && secondletter === 4 && thirdletter === 6){
+			show(".text33");
+		}else{
+			show(".text19");
 		}
 		
 		
