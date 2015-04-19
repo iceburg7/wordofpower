@@ -6,6 +6,8 @@ $(document).ready(function(){
 	var firstletter = 0;
 	var secondletter = 0;
 	var thirdletter = 0;
+	var pridestate = 0;
+	var angerstate = 0;
 	
 	
 	
@@ -301,9 +303,25 @@ $(document).ready(function(){
 		}else if(firstletter === 3 && secondletter === 2 && thirdletter === 4){
 			show(".text11");
 			show(".letter1");
-		}else if(firstletter === 6 && secondletter === 5 && thirdletter === 2){
+		}else if(firstletter === 6 && secondletter === 4 && thirdletter === 2){
 			show(".text12");
 			show(".letter7");
+		}else if(firstletter === 1 && secondletter === 5 && thirdletter === 2 && pridestate === 0){
+			show(".text13");
+			pridestate = 1;
+		}else if(firstletter === 1 && secondletter === 5 && thirdletter === 2 && pridestate === 1){
+			show(".text14");
+			pridestate = 2;
+		}else if(firstletter === 1 && secondletter === 5 && thirdletter === 2 && pridestate === 2){
+			show(".text15");
+			pridestate = 3;
+		}else if(firstletter === 1 && secondletter === 5 && thirdletter === 2 && pridestate === 3){
+			hide(".titleblock");
+			hide(".descriptionblock");
+			hide(".letterblock");
+			hide(".wordblock");
+			hide(".speakblock");
+			show(".prideend");
 		}
 		
 		
