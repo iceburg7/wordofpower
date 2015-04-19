@@ -65,10 +65,53 @@ $(document).ready(function(){
 	
 	
 	
+	$(".letter1").hover(function(){
+		hide(".text");
+		$(".text1").css("display","block");
+		},function(){
+		$(".text1").css("display","none");
+	});
+	
+	$(".letter2").hover(function(){
+		hide(".text");
+		$(".text2").css("display","block");
+		},function(){
+		$(".text2").css("display","none");
+	});
+	
 	$(".letter3").hover(function(){
+		hide(".text");
 		$(".text3").css("display","block");
 		},function(){
 		$(".text3").css("display","none");
+	});
+	
+	$(".letter4").hover(function(){
+		hide(".text");
+		$(".text4").css("display","block");
+		},function(){
+		$(".text4").css("display","none");
+	});
+	
+	$(".letter5").hover(function(){
+		hide(".text");
+		$(".text5").css("display","block");
+		},function(){
+		$(".text5").css("display","none");
+	});
+	
+	$(".letter6").hover(function(){
+		hide(".text");
+		$(".text6").css("display","block");
+		},function(){
+		$(".text6").css("display","none");
+	});
+	
+	$(".letter7").hover(function(){
+		hide(".text");
+		$(".text7").css("display","block");
+		},function(){
+		$(".text7").css("display","none");
 	});
 	
 	
@@ -248,8 +291,19 @@ $(document).ready(function(){
 	$(".speakblock").click(function(){
 		
 		if(firstletter === 5 && secondletter === 3 && thirdletter === 4){
-			console.log("You spelled CAB!");
+			show(".text8");
 			show(".letter6");
+		}else if(firstletter === 4 && secondletter === 6 && thirdletter === 5){
+			show(".text9");
+			show(".letter2");
+		}else if(firstletter === 2 && secondletter === 2 && thirdletter === 2){
+			show(".text10");
+		}else if(firstletter === 3 && secondletter === 2 && thirdletter === 4){
+			show(".text11");
+			show(".letter1");
+		}else if(firstletter === 6 && secondletter === 5 && thirdletter === 2){
+			show(".text12");
+			show(".letter7");
 		}
 		
 		
